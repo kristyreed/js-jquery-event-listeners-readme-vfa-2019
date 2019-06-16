@@ -5,19 +5,25 @@ $('p').on('click', function(){
   alert("Hey!");})
 }
 
-$('img').on('load', function frameIt(){
+function frameIt(){
+$('img').on('load', function(){
   
 })
+}
 
-$("form").on('keydown', function pressIt(){
+function pressIt() {
+$("form").on('keydown', function(){
   if(key.which == 71)
   { alert('You have pressed the G key.');}
 })
+}
 
-$("form").on("submit", function submitIt(){
+function submitIt(){
+  $("form").on("submit", function(){
   if ($("input:first").val()==="correct")  
     alert("Your form is going to be submitted now.");
 })
+}
 
 $(document).ready(function(){
   window.getIt();

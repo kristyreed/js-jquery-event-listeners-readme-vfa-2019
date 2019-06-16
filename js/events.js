@@ -1,4 +1,4 @@
-//define functions here
+// Definitions
 
 function getIt(){
 $('p').on('click', function(){
@@ -25,13 +25,13 @@ function submitIt(){
 })
 }
 
+// Call Functions
+
 $(document).ready(function(){
   getIt();
   frameIt();
   pressIt();
   submitIt();
   return;
-
-// call functions here
 
 });

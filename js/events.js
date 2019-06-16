@@ -1,9 +1,9 @@
 //define functions here
 
 function getIt(){
-  alert("Hey!");
+  $('p').on('click', alert("Hey!");
   return;
-})
+}
 
 $('img').on('load', function frameIt(){
   

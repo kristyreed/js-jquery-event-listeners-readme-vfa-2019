@@ -1,8 +1,10 @@
 //define functions here
 
-function getIt(){
-  $('p').on('click', alert("Hey!");
+function getIt()
+$('p').on('click', function(){
+  alert("Hey!");
   return;
+})
 }
 
 $('img').on('load', function frameIt(){

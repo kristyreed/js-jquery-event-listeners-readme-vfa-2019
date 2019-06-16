@@ -20,10 +20,11 @@ $("form").on("submit", function submitIt(){
 })
 
 $(document).ready(function(){
-  return getIt()
-  return frameIt()
-  return pressIt()
-  return submitIt()
+  window.getIt();
+  window.frameIt();
+  window.pressIt();
+  window.submitIt();
+  return;
 
 // call functions here
 

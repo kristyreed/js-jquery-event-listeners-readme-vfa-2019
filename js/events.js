@@ -26,10 +26,10 @@ function submitIt(){
 }
 
 $(document).ready(function(){
-  window.getIt();
-  window.frameIt();
-  window.pressIt();
-  window.submitIt();
+  getIt();
+  frameIt();
+  pressIt();
+  submitIt();
   return;
 
 // call functions here
